@@ -1,0 +1,312 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@500&display=swap');
+
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    font-family: 'DM Sans', sans-serif;
+}
+
+
+
+
+header
+{
+    width: 100%;
+    height: 40px;
+    background: #fff;
+    border-bottom: 1px solid #999;
+}
+
+
+
+
+header a 
+{
+    position: absolute;
+    font-size: 1.1em;
+    color: #000;
+    padding: 8px;
+}
+
+
+
+
+
+
+@media only screen and (max-width: 980px) {
+
+
+
+.files 
+{
+    position: fixed;
+    width: 100%;
+    height: 770px;
+    background: #fff8bf;
+}
+
+
+
+
+.files .file 
+{
+    display: flex;
+    justify-content: center;
+    margin-top: 5rem;
+}
+
+
+
+
+
+.files .file a .box 
+{
+    width: 53px;
+    height: 53px;
+   border: 1px solid rgba(0,0,0,0.2);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 6.5px;
+    background: #fff;
+    margin: 0.9rem;
+}
+
+
+
+
+
+.files .file a .box img 
+{
+    width: 27px;
+}
+
+
+
+
+.files .file a .box p
+{
+    position: absolute;
+    font-size: 0.7em;
+    color: #222;
+    margin-top: 5rem;
+}
+
+
+
+
+
+.files .footer
+{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.files h1
+{
+    position: absolute;
+    font-size: 1.1em;
+    padding: 15px;
+    margin-top: 6rem;
+}
+
+
+
+
+
+
+.files .box1
+{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #fff;
+   border: 1px solid rgba(0,0,0,0.2);
+    margin-top: 10rem;
+    margin-left: 15px;
+}
+
+
+
+.files .box1 img 
+{
+    position: absolute;
+    width: 20px;
+}
+
+
+
+
+
+.files .up a 
+{
+    position: absolute;
+    font-size: 1em;
+    color: #444;
+    margin-left: 70px;
+    margin-top: 10.5rem;
+}
+
+
+
+
+
+.files .box2
+{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-top: 13rem;
+    margin-left: 15px;
+}
+
+
+
+.files .box2 img 
+{
+    position: absolute;
+    width: 20px;
+}
+
+
+.files .po a 
+{
+    position: absolute;
+    font-size: 1em;
+    color: #444;
+    margin-left: 70px;
+    margin-top: 13.5rem;
+}
+
+
+
+
+
+
+.files .box3
+{
+    position: absolute;
+    width: 38px;
+    height: 38px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    background: #fff;
+    border: 1px solid rgba(0,0,0,0.2);
+    margin-top: 16rem;
+    margin-left: 15px;
+}
+
+
+
+.files .box3 img 
+{
+    position: absolute;
+    width: 20px;
+}
+
+
+.files .wi a 
+{
+    position: absolute;
+    font-size: 1em;
+    color: #444;
+    margin-left: 70px;
+    margin-top: 16.5rem;
+}
+
+
+
+
+
+
+/*******Loader********/
+
+
+.loader 
+{
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    content: '';
+    top: 0;
+    left: 0;
+    background: #fff;
+}
+
+
+
+
+.loader .loadi {
+  width: 48px;
+  height: 48px;
+  display: inline-block;
+  position: relative;
+  color: #f7c207;
+  border: 1px solid #777;
+  box-sizing: border-box;
+  animation: fill 2s linear infinite alternate;
+}
+
+@keyframes fill {
+  0% {
+    box-shadow: 0 0  inset;
+  }
+  100% {
+    box-shadow: 0 -48px inset;
+  }
+}
+
+
+
+
+.loader h1 
+{
+    position: absolute;
+    font-size: 1.4em;
+    margin-top: 17rem;
+}
+    
+
+
+
+
+
+
+
+.files .footer h5 
+{
+    position: absolute;
+    font-size: 0.8em;
+    margin-top: 32.5rem;
+}
+
+
+
+
+
+
+
+
+}
